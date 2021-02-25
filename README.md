@@ -61,8 +61,8 @@ HR, Manager, and Supervisor can view the claims assigned to them:
 HR, Manager, and Supervisor request more information:
 ![Request Information](/Screenshots/request-information.png 'Request Information')
 
-When done logout:
-![Logout](/Screenshots/logout.png 'Logout')
+When done logout takes you back to login screen:
+![Logout](/Screenshots/login.png 'Logout')
 
 ## Contributors
 
