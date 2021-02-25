@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color:rgba(86, 174, 177, 0.598);
+}
+
+header {
+	font-family: Sriracha, Arial, Helvetica, sans-serif;
+	background-color: rgb(133, 182, 235);
+	color: rgb(255, 255, 255);
+}
+
+nav {
+	background-color: rgba(174, 235, 212, 0.625);
+	color: rgb(251, 251, 251);
+}
+
+nav > ul > li {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+}
+
+li > a {
+	color: rgb(245, 177, 177);
+	
+}
+
+nav > ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero {
+	margin: 10px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+.img {
+	/* display: flex; */
+	justify-content: space-evenly;
+}

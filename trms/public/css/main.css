@@ -1,0 +1,151 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: lightslategrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font: 18px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.header-wrapper {
+    background: url('../images/abstract-teal-background.jpg');
+    background-size: cover;
+}
+
+.wrapper{
+    padding: 1.5em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li a {
+    padding: 0 .6em;
+}
+
+.header-content{
+    margin: 4em 0 2em;
+}
+
+header-content .subtitle {
+    margin-bottom: 0;
+}
+
+.image-wrapper{
+    background: lightsteelblue;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.events li {
+    margin-bottom: 1.5em;
+}
+
+.events li span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.extended-wrapper {
+    padding: 0 1.5em 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel {
+    margin-bottom: 1em;
+}
+
+.carousel li {
+    background: slategray;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+blockquote{
+    margin: 0;
+    font-size: .8em;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+cite {
+    color: lightsteelblue;
+    font-weight: bold;
+    font-size: .8em;
+    font-style: normal;
+    position: relative;
+    padding-left: 25px;
+}
+
+cite::before {
+    content: " ";
+    position: absolute; 
+    left: 0;
+    top: 6px;
+    height: 1px;
+    width: 20px;
+    border-bottom: 1px solid white;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+}
+
+h2::before{
+    content: " ";
+    position: absolute; 
+    height: 5px;
+    width: 30px;
+    background: darkslategrey;
+    top: -.3em;
+}
+
+.companies{
+    display: flex;
+    text-align: center;
+    opacity: .4;
+}
+
+.companies li{
+    margin: 2em 0;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+}

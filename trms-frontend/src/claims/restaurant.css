@@ -1,0 +1,27 @@
+.rest-logo {
+	height:auto;
+	width:100%;
+}
+.card-body {
+	color: rgb(240, 114, 114);
+	border-style: inset;
+	text-align: center;
+	font-weight: bold;
+}
+
+.menu {
+	text-align: center;
+	border-style: double;
+	border-color: green;
+	border-radius: 2cm;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	background-color: rgb(120, 93, 172);
+}
+
+#labelMenu {
+	font-size: 35px;
+	color:maroon
+}
